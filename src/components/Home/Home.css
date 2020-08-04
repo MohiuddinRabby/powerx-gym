@@ -1,0 +1,15 @@
+.home-banner {
+  background-image: url("../../assets/img/bg-1.jpg");
+  min-height: 500px;
+  background-size: cover;
+}
+.description {
+  color: #fff;
+}
+.description h1 {
+  font-weight: bold;
+  font-size: 50px;
+}
+.btn {
+  font-weight: bold;
+}
