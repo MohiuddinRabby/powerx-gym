@@ -2,6 +2,7 @@ import React from "react";
 import "./Home.css";
 import Motiv from "../Motiv/Motiv";
 import Service from "../Service/Service";
+import { Link } from "react-router-dom";
 const Home = () => {
   return (
     <section>
@@ -16,7 +17,7 @@ const Home = () => {
                 Voluptates minus esse iste eum itaque vero exercitationem
                 necessitatibus, ullam libero animi.
               </p>
-              <button className="btn btn-warning">JOIN US</button>
+              <Link to="/pricing" className="btn btn-warning">JOIN US</Link>
             </div>
             <div className="col-md-6"></div>
           </div>
