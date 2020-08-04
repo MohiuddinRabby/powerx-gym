@@ -1,10 +1,11 @@
 import React from "react";
 import "./Purchase.css";
 import { useForm } from "react-hook-form";
+import { Link } from "react-router-dom";
 const Purchase = () => {
   const { register, handleSubmit, errors } = useForm();
   const onSubmit = (data) => {
-    console.log(data);
+    // console.log(data);
   };
   return (
     <div className="container py-5">
@@ -64,7 +65,7 @@ const Purchase = () => {
             {errors.postal && <p className="errorMsg">Postal code requird</p>}
           </div>
         </div>
-        <button className="btn btn-warning">Next</button>
+        <Link to="/payment" className="btn btn-warning">Next</Link>
       </form>
     </div>
   );

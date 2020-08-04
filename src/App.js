@@ -4,6 +4,7 @@ import Nav from "./components/Nav/Nav";
 import Home from "./components/Home/Home";
 import Pricing from "./components/Pricing/Pricing";
 import Purchase from "./components/Purchase/Purchase";
+import StripePayment from "./components/StripePayment/StripePayment";
 function App() {
   return (
     <>
@@ -14,6 +15,7 @@ function App() {
             <Route exact path="/" component={Home}></Route>
             <Route path="/pricing" component={Pricing}></Route>
             <Route path="/purchase" component={Purchase}></Route>
+            <Route path="/payment" component={StripePayment}></Route>
           </Switch>
         </div>
       </Router>
