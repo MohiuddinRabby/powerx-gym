@@ -1,0 +1,8 @@
+input{
+    width: 400px;
+    height: 45px;
+    margin: 20px 0px 20px 0px;
+}
+.errorMsg{
+    color: red;
+}
