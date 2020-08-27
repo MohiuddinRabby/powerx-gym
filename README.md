@@ -1,1 +1,0 @@
-#### power-X-gym (React)
