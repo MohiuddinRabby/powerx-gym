@@ -1,0 +1,9 @@
+.pNav .navbar {
+  opacity: 0.6;
+  background-color: #261a0d !important;
+}
+.pNav .navbar ul li a {
+  font-size: 18px;
+  font-weight: bold;
+  color: yellow;
+}
