@@ -1,0 +1,17 @@
+#power {
+  font-size: 25px;
+  color: #fff;
+  font-weight: bold;
+}
+#x {
+  color: #ffcc00;
+}
+.navbar {
+  opacity: 0.6;
+  background-color: #261a0d !important;
+}
+.navbar ul li a {
+  font-size: 18px;
+  font-weight: bold;
+  color: ivory;
+}

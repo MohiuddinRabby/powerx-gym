@@ -1,0 +1,17 @@
+#banner {
+    background: url("../../img/banner.jpg") no-repeat;
+    background-size: cover;
+    min-height: 630px;
+    color: #ccccb3;
+  }
+  #banner .dark-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 630px;
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+  .banner-inner h1{
+      font-weight: bold;
+  }
